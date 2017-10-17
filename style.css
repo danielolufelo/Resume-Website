@@ -1,0 +1,163 @@
+*	{
+	margin: 0px;
+	padding: 0px;
+	}
+			
+th {
+	height: 65px;
+	font-weight: bold;
+	text-align: center;
+	font: bold 15px Veranda;
+	}
+html {
+	background-color:#3359FF;
+}
+
+th, td { 
+	padding: 1px;
+	font-size: 23.5px;
+		}
+		
+td {
+	height:63px;
+			}	
+			
+header, section, footer, aside, nav, article{
+	display: inline;
+		}
+		
+body{
+	width: 100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	}
+	
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 200px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    float: left;
+  }
+  
+  .nav ul {
+    overflow: auto;
+    width: 1000px;
+    margin: 0 auto;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}	
+		
+			
+		#wopp {
+			
+			padding: 25px;
+			width: 1200px;
+			height: 1000px;
+			margin: 0px auto;
+			-webkit-box-orient: vertical;
+			-webkit-box-flex: 1;
+			}
+			
+		#wopp2 {
+			
+			padding: 5px;
+			width: 1200px;
+			height: 1000px;
+			margin: 0px auto;
+			-webkit-box-orient: vertical;
+			-webkit-box-flex: 1;
+			}
+
+
+		#tophead {
+			font: bold 26px AbottOldStyle; 
+			}
+			
+			
+		#right {
+			width: 350px;
+			height: 535px;
+			float: right;
+			margin-top: 10px;
+			}
+	
+		
+		#wraps {
+			padding:15px;
+		}
+		
+		#center2 {
+			float: top;
+		}
+				
+				
+		.fsSubmitButton
+		{
+		padding: 10px 15px 11px !important;
+		font-size: 18px !important;
+		background-color: #57d6c7;
+		font-weight: bold;
+		text-shadow: 1px 1px #57D6C7;
+		color: #ffffff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: 1px solid #57D6C7;
+		cursor: pointer;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		}
